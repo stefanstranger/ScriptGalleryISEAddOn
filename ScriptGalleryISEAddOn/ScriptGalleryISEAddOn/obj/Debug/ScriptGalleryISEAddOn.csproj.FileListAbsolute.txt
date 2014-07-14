@@ -1,0 +1,11 @@
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\ScriptGalleryISEAddOn.dll
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\ScriptGalleryISEAddOn.pdb
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.csprojResolveAssemblyReference.cache
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\UserControl1.baml
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\UserControl1.g.cs
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn_MarkupCompile.cache
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.g.resources
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.Properties.Resources.resources
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.csproj.GenerateResource.Cache
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.dll
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.pdb
