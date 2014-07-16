@@ -9,3 +9,9 @@ C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGallery
 C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.csproj.GenerateResource.Cache
 C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.dll
 C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\obj\Debug\ScriptGalleryISEAddOn.pdb
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\ribboncontrolslibrary.dll
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\ribboncontrolslibrary.pdb
+C:\Users\stefstr\Documents\GitHub\PowerShell\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\ScriptGalleryISEAddOn\bin\Debug\ribboncontrolslibrary.xml

@@ -33,5 +33,42 @@ namespace ScriptGalleryISEAddOn
             get;
             set;
         }
+
+
+        private void FowardButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (MyWebBrowser.CanGoForward)
+            {
+
+                MyWebBrowser.GoForward();
+
+            }
+
+            else
+            {
+
+                MessageBox.Show("Cannot Go forward");
+
+            } 
+
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (MyWebBrowser.CanGoBack)
+            {
+
+                MyWebBrowser.GoBack();
+
+            }
+
+            else
+            {
+
+                MessageBox.Show("Cannot Go back");
+
+            } 
+
+        }
     }
 }

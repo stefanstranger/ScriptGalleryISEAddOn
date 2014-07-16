@@ -6,7 +6,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        <WebBrowser HorizontalAlignment="Left" Margin="22,38,0,0" VerticalAlignment="Top" Source="http://gallery.technet.microsoft.com/site/upload"/>
+        <WebBrowser x:Name="MyWebBrowser" HorizontalAlignment="Left" Margin="22,38,0,0" VerticalAlignment="Top" Source="http://gallery.technet.microsoft.com/site/upload"/>
+        <Button x:Name="ForwardButton" Content="Forward" HorizontalAlignment="Left" Margin="102,10,0,0" VerticalAlignment="Top" Width="75" Click="FowardButton_Click"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="BackButton_Click"/>
 
     </Grid>
 </UserControl>
