@@ -1,25 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
+﻿using System.Windows;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 using Microsoft.PowerShell.Host.ISE;
+using System;
 
 namespace ScriptGalleryISEAddOn
 {
-    /// <summary>
-    /// Interaction logic for UserControl1.xaml
-    /// </summary>
-    public partial class ScriptGallery : UserControl, IAddOnToolHostObject
+    public partial class ScriptGallery : IAddOnToolHostObject
     {
         public ScriptGallery()
         {
@@ -28,47 +14,30 @@ namespace ScriptGalleryISEAddOn
 
         // Populated by the ISE because we implement the IAddOnToolHostObject interface.
         // Represents the entry-point to the ISE object model.
-        public ObjectModelRoot HostObject
+        public ObjectModelRoot HostObject { get; set; }
+
+
+        private void FowardButtonClick(object sender, RoutedEventArgs e)
         {
-            get;
-            set;
+            MyWebBrowser.GoForward();
         }
 
-
-        private void FowardButton_Click(object sender, RoutedEventArgs e)
+        private void BackButtonClick(object sender, RoutedEventArgs e)
         {
-            if (MyWebBrowser.CanGoForward)
-            {
-
-                MyWebBrowser.GoForward();
-
-            }
-
-            else
-            {
-
-                MessageBox.Show("Cannot Go forward");
-
-            } 
-
+            MyWebBrowser.GoBack();
         }
 
-        private void BackButton_Click(object sender, RoutedEventArgs e)
+        private void BrowserOnNavigated(object sender, NavigationEventArgs e)
         {
-            if (MyWebBrowser.CanGoBack)
-            {
+            BackButton.IsEnabled = MyWebBrowser.CanGoBack;
+            ForwardButton.IsEnabled = MyWebBrowser.CanGoForward;
+        }
 
-                MyWebBrowser.GoBack();
-
-            }
-
-            else
-            {
-
-                MessageBox.Show("Cannot Go back");
-
-            } 
-
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var fileName = HostObject.CurrentPowerShellTab.Files.SelectedFile.FullPath;
+            Clipboard.SetData(DataFormats.Text, (Object)fileName);
+            MessageBox.Show("File Name copied to clipboard");
         }
     }
 }
