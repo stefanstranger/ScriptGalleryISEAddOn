@@ -8,4 +8,6 @@ http://gallery.technet.microsoft.com/
 
 Add-On is using a "simple" browser object.
 
+![Image](https://bqechw.dm2302.livefilestore.com/y2pVvMvdIcR8T0TN9jlEdl0Hzv15aPVqTbnUjgQHRgrVUW0jFROVxH9NWhDn0uBSDEZ96FS7yzdtx7vS1fPJ0H3Kqfz02bmyQ8eGoIh4wrMfRc/ScriptGalleryUpload.jpg)
+
 /Stefan
