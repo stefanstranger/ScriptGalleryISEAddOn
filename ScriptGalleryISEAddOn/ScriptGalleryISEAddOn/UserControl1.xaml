@@ -5,11 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
+    <Grid Margin="0,0,0,0" RenderTransformOrigin="0.543,0.507">
         <WebBrowser x:Name="MyWebBrowser" Navigated="BrowserOnNavigated" HorizontalAlignment="Left" Margin="22,38,0,0" VerticalAlignment="Top" Source="http://gallery.technet.microsoft.com/site/upload"/>
-        <Button x:Name="ForwardButton" Content="Forward" HorizontalAlignment="Left" Margin="102,10,0,0" VerticalAlignment="Top" Width="75" Click="FowardButtonClick"/>
-        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="BackButtonClick"/>
-        <Button Content="Copy File name" HorizontalAlignment="Left" Margin="195,10,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click"/>
+        <Button x:Name="ForwardButton" Content="Forward" HorizontalAlignment="Left" Margin="71,10,0,0" VerticalAlignment="Top" Width="52" Click="FowardButtonClick"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top" Width="48" Click="BackButtonClick"/>
+        <Button Content="Copy File name" HorizontalAlignment="Left" Margin="246,10,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click" ToolTip="Copy full filename to Clipboard"/>
+        <Button x:Name="CopyComments" Content="Copy Comments" HorizontalAlignment="Left" Margin="138,10,0,0" VerticalAlignment="Top" Width="94" Click="GetScriptContent" ToolTip="Copy Comments from script to Clipboard"/>
 
     </Grid>
 </UserControl>
