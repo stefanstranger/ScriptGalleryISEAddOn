@@ -69,7 +69,7 @@ namespace ScriptGalleryISEAddOn
                 string replacement = "";
                 Regex rgx = new Regex(pattern);
                 string result = rgx.Replace(sb.ToString(), replacement);
-                MessageBox.Show(result,"Script Comments fixed");
+                // MessageBox.Show(result,"Script Comments fixed");
 
 ;
 
